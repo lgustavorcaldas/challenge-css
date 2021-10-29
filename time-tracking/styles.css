@@ -1,0 +1,120 @@
+:root{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+body{
+    margin: 0 auto;
+    background-color: #0d1323;
+}
+.container-main{
+    display: flex;
+    padding: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3em;
+}
+.container-one{
+    width: 225px;
+    height: 375px;
+    padding-bottom: 3em;
+}
+.container-two{
+    width: 750px;
+    height: 430px;
+    display: flex;
+    column-gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3em;
+}
+.report{
+    width: 225px;
+    height: 375px;
+    color: white;
+    background-color: #1d204b;
+    border-radius: 20px;
+}
+.top-one:hover{
+    background-color: #493bc7;
+    transform: scale(1.1);
+}
+.top-one{
+    width: 225px;
+    height: 250px;
+    background-color: #5746ea;
+    border-radius: 20px;
+}
+#pic{
+    margin: 2em 2em -0.5em;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+div p{
+    margin: 2em;
+}
+div b{
+    line-height: 1em;
+    font-size: 30px;
+}
+.bot{
+    color: #6e6ea1;
+    margin: 2em;
+    line-height: 1.8em;
+}
+.work, .play, .study, .exercise, .social, .self-care{
+    width: 225px;
+    height: 175px;
+    color: white;
+    background-color: #f68a63;
+    border-radius: 20px;
+}
+.box{
+    margin-top: 25px;
+    width: 225px;
+    height: 150px;
+    background-color: #1d204b;
+    border-radius: 15px;
+}
+.box:hover{
+    background-color: #383c6e;
+    transform: scale(1.1);
+}
+.txt{
+    padding-top: 0.01em;
+}
+.number{
+    margin: 1em 0em -2em 2em;
+}
+p img{    
+    position: absolute;
+    margin: 0em 0px 0px 10em;
+}
+.play{
+    background-color: #56c2e6;
+}
+.study{
+    background-color: #f25b7c;
+}
+.exercise{    
+    background-color: #5ecf83;
+}
+.social{    
+    background-color: #775ad0;
+}
+.self-care{    
+    background-color: #f1c659;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(245, 93%, 88%); 
+}
